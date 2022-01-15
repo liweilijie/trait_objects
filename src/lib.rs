@@ -1,8 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+mod trait_object_in_fn;
+mod service;
+
+pub use trait_object_in_fn::*;
+pub use service::*;
